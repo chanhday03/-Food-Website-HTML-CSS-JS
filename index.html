@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website Design Using HTML / CSS / JAVASCRIPT</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/62fe7548c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header section starts  -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Resto.</a>
+        <nav class="navbar">
+            <a class="active"  href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-bars"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+            <a href="#" class="fa-solid fa-heart" ></a>
+            <a href="#"  class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!-- header section ends  -->
+    <!-- search form -->
+    <form action="" id="search-form">
+        <input type="search" id="search-box" placeholder="Search here ...">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="container home-slider">
+            <div class="wrapper">
+                <div class="slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nam iste minima vel qui distinctio similique aliquam quaerat aperiam consequuntur possimus, veritatis, odio culpa rem fuga voluptas repellat magni eligendi!</p>
+                        <a href="#" class="btn"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/seafood-pizza.jpg" alt="">
+                    </div>
+                </div>
+                <!-- slide2 -->
+                <div class="slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nam iste minima vel qui distinctio similique aliquam quaerat aperiam consequuntur possimus, veritatis, odio culpa rem fuga voluptas repellat magni eligendi!</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/seafood-pizza.jpg" alt="">
+                    </div>
+                </div>
+                <!-- slide3 -->
+                <div class="slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nam iste minima vel qui distinctio similique aliquam quaerat aperiam consequuntur possimus, veritatis, odio culpa rem fuga voluptas repellat magni eligendi!</p>
+                        <a href="#" class="btn"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/seafood-pizza.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- home section ends -->
+
+</body>
+<script src="./app.js"></script>
+</html>
