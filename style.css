@@ -134,7 +134,7 @@ section{
     padding: 8rem; 
 }
 section:nth-child(even){
-    background: #6c2f2f;
+    background: #eee;
 }
 .btn{
     margin-top: 1rem;
@@ -194,16 +194,16 @@ background: var(--green);
 .sub-heading{
     text-align: center;
     color: var(--green);
-    font-size: 2rem;
-    padding-top: 1rem;
+    font-size: 2.2rem;
 }
 .heading{
     text-align: center;
     color: var(--black);
-    font-size: 3rem;
+    font-size: 4rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 .dishes .box-container{
     display: grid;
@@ -264,6 +264,14 @@ background: var(--green);
     font-size: 1.7rem;
     color: rgb(247, 235, 18);
 }
+.dishes .box-container .box span{
+    color: var(--green);
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
+
 /* responsive */
 @media (max-width : 768px ){
     header .icons #menu-bars{
@@ -301,12 +309,16 @@ background: var(--green);
 }
 @media (max-width : 991px ){
     html{
-        font-size: 55%;
+        font-size: 50%;
     }
     header{
         padding: 1rem 2rem;
     }
     section{
         padding:2rem;
+    }
+    .dishes .box-container .box img{
+        height: auto;
+        width: 100%;
     }
 }
